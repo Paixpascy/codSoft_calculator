@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:honeydew;
+}
+.details{
+    border: solid;
+    overflow: hidden;
+    background-color: thistle;
+    width: 250px;
+    border-radius: 45px;
+}
+#screen{
+    height:50px;
+    text-align: end;
+    background-color:cadetblue;
+    width: 100%;
+    border: none;
+}
+.display{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.buttons{
+    padding-left: 20px;
+    background-color: thistle;
+    padding-bottom: 15px;
+}
+.sign-btn{
+    width: 50px;
+    border:outset,inset;
+    background-color: chocolate;
+    height: 50px;
+    cursor: pointer;
+}
+.operator{
+    width: 50px;
+    border:outset,inset;
+    border-radius: 30px;
+    height: 50px;
+    cursor: pointer;
+}
+.eql-btn{
+    width:100px;
+    height: 50px;
+    cursor:pointer;
+    border:inherit;
+    background-color:burlywood;
+}
+.btns1, .btns2, .btns3,.btns4{
+    padding-bottom: 5px;
+}
